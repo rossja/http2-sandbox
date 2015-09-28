@@ -1,0 +1,26 @@
+{
+  "name": "http2-sandbox",
+  "version": "0.0.1",
+  "description": "HTTP/2 Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossja/http2-sandbox.git"
+  },
+  "keywords": [
+    "http2"
+  ],
+  "author": "rossja <algorythm@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rossja/http2-sandbox/issues"
+  },
+  "homepage": "https://github.com/rossja/http2-sandbox#readme",
+  "dependencies": {
+    "http2": "^3.2.0"
+  }
+}
