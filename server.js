@@ -3,8 +3,8 @@ var fs = require("fs"),
     morgan = require("morgan"),
     debug = require("debug")("http2-server"),
     options = {
-      key: fs.readFileSync('./lib/certs/key.pem'),
-      cert: fs.readFileSync('./lib/certs/cert.pem')
+      key: fs.readFileSync('./lib/keys/key.pem'),
+      cert: fs.readFileSync('./lib/keys/cert.pem')
     };
 
 var logger = morgan("combined");
